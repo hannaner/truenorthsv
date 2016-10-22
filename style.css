@@ -79,9 +79,9 @@ nav {
 /* SECTIONS -------------------------- */
 
 /* Space out the Bootstrap <hr> more */
-/*.section-divider {
-  margin: 80px 0; 
-}*/
+.section-divider {
+  margin: 80px 0px 0px; 
+}
 
 /* Thin out the marketing headings */
 /*.section-heading {
@@ -93,6 +93,12 @@ nav {
 
 /* -------END SECTIONS -------- */
 
+
+/* FOOTER */
+/*footer .social-media-links {
+  display: inline-block;
+  font-size: 22px;
+}*/
 
 
 
