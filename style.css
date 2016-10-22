@@ -111,10 +111,12 @@ footer .social .fa-facebook:hover {
 }
 
 footer .social .fa-instagram:hover {
-    color: #00ABE3;
+    color: #BF3187;
 }
 
-
+footer .social .fa-yelp:hover {
+    color: #D32323;
+}
 /*footer .social-media-links {
   display: inline-block;
   font-size: 22px;
