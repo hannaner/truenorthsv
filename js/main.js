@@ -15,8 +15,6 @@ $(function() {
 });
 
 
-
-
 $(window).on("load",function() {
   $(window).scroll(function() {
     $(".fade").each(function() {
@@ -32,24 +30,8 @@ $(window).on("load",function() {
   }); $(window).scroll(); //invoke scroll-handler on page-load
 });
 	
-
-
-var clicked = false, clickY;
-	$(document).on({
-		'mousemove': function(e) {
-			clicked && updateScrollPos(e);
-		},
-		'mousedown': function(e) {
-			clicked = true;
-			clickY = e.pageY;
-		},
-		'mouseup': function() {
-			clicked = false;
-			$('html').css('cursor', 'auto');
-		}
-	});
-
-var updateScrollPos = function(e) {
-	$('html').css('cursor', 'row-resize');
-	$(window).scrollTop($(window).scrollTop() + (clickY - e.pageY));
-}
+$(document).ready(function(){
+  $('.carousel').carousel({
+    interval: 4000
+  })
+});    

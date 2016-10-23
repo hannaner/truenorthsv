@@ -217,7 +217,6 @@ footer .social .fa-facebook{
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
-  /* ...and now for the proper property */
   transition:.5s;
 }
 
@@ -230,7 +229,6 @@ footer .social .fa-instagram{
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
-  /* ...and now for the proper property */
   transition:.5s;
 }
 footer .social .fa-instagram:hover {
@@ -242,7 +240,6 @@ footer .social .fa-yelp{
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
-  /* ...and now for the proper property */
   transition:.5s;
 }
 footer .social .fa-yelp:hover {
@@ -254,7 +251,6 @@ footer .social .fa-envelope-o{
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
-  /* ...and now for the proper property */
   transition:.5s;
 }
 footer .social .fa-envelope-o:hover {
