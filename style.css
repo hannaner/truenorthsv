@@ -1,6 +1,5 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-/* Padding below the footer and lighter body text */
 
 * {
   font-family: 'Montserrat';
@@ -101,8 +100,6 @@ p {
 
 
 
-
-
 /* NAVIGATION MENU -------------------------------------------------- */
 
 nav {
@@ -180,7 +177,6 @@ a.navbar-brand {
   background-color: #ffffff !important;
 }
 /* ---------- END CAROUSEL ------------ */
-
 
 
 
