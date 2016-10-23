@@ -89,6 +89,10 @@ body {
     user-select: none;
 }
 
+.container h1 {
+  margin-top: 70px;
+}
+
 p {
   margin: 0px;
 }
@@ -150,7 +154,9 @@ a.navbar-brand {
 
 
 /* BANNER ----------------------------------------*/
-
+#banner {
+  max-height: 500px;
+}
 
 /* CAROUSEL --------------------------------------*/
 
@@ -172,8 +178,7 @@ a.navbar-brand {
   top: 0;
   left: 0;
   min-width: 100%;
-  min-height: 500px;
-  max-height: 700px;
+  height: 700px;
 }
 
 .carousel-indicators > .active {
@@ -188,16 +193,19 @@ a.navbar-brand {
 
 /* Space out the Bootstrap <hr> more */
 .section-divider {
-  margin: 80px 0px 0px; 
+  margin: 70px 0px 0px; 
 }
 
-/* Thin out the marketing headings */
-/*.section-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
+
+#join_us {
+  margin-bottom: 20px;
 }
-*/
+
+/* on ABOUT page */
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
 
 /* -------END SECTIONS -------- */
 
