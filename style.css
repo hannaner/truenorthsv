@@ -7,7 +7,7 @@
 }
 
 body {
-  padding-top: 70px;
+  padding-top: 65px;
   padding-bottom: 40px;
   color: #5a5a5a;
 }
@@ -60,19 +60,55 @@ nav {
 
 /* CAROUSEL --------------------------------------*/
 
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
 /* Carousel base class */
 .carousel {
-  height: 700px;
+  max-height: 700px;
   margin-bottom: 60px;
 }
-
-/* Caption */
+/* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
 }
 
-/* Need to set height b/c of img positioning */
+/* Declare heights because of positioning of img element */
 .carousel .item {
+  max-height: 700px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: static;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 500px;
+  max-height: 700px;
+
+}
+
+.carousel-indicators > .active {
+  background-color: #337ab7 !important;
+}
+
+.carousel-indicators > li {
+  border: 1px solid #337ab7 !important;
+}
+
+/* Carousel base class */
+/*.carousel {
+  height: 700px;
+  margin-bottom: 60px;
+}*/
+
+/* Caption */
+/*.carousel-caption {
+  z-index: 10;
+}*/
+
+/* Need to set height b/c of img positioning */
+/*.carousel .item {
   height: 700px;
   background-color: #777;
 }
@@ -84,6 +120,8 @@ nav {
   height: 500px;
 }
 
+
+*/
 
 
 
